@@ -1,16 +1,15 @@
 {
-  "name": "kaamelott-soundboard",
-  "description": "Quelques-unes des meilleures répliques sonores de Kaamelott. C'était ça ou chante Sloubi.",
+  "name": "soundboard",
+  "description": "Modèle pour créer des soundboards",
   "main": "js/app/main.js",
   "authors": [
     "Antoine @2ec0b4"
   ],
   "license": "MIT",
   "keywords": [
-    "kaamelott",
     "soundboard"
   ],
-  "homepage": "https://github.com/2ec0b4/kaamelott-soundboard",
+  "homepage": "https://github.com/infologie/soundboard",
   "private": true,
   "ignore": [
     "**/.*",

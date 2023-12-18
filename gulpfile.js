@@ -39,7 +39,7 @@ function referenceToRegexs(reference) {
 gulp.task("rev-all", function(){
     var revAll  = new RevAll({
         dontGlobal: [/^\/favicons\/favicon\.ico$/g, /^\/sounds\/(.+)\.mp3/g],
-        dontRenameFile: [/^\/.+\.html/g, /^\/robots\.txt/g, /^\/img\/ks\.jpg/g],
+        dontRenameFile: [/^\/.+\.html/g, /^\/robots\.txt/g, /^\/img\/logo\.jpg/g],
         referenceToRegexs: referenceToRegexs,
         transformPath: function (rev, source, path) {
             if( source.match(/main/) ) {
